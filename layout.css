@@ -1,0 +1,126 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0px;
+	font-family:sans-serif;
+	background-color:#dddddd;
+
+}
+.container
+{
+	max-width:1140px;
+	background-color: #ffffff;
+	height:auto;
+	margin:20px auto;
+	padding: 20px;
+}
+h1
+{
+	font-size: 30px;
+	margin: 0;
+}
+.clear
+{
+	clear: both;
+}
+nav
+{
+	float:left;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	background-color:#dddddd; 
+	margin-bottom: 20px;
+}
+header
+{
+	float:left;
+	width:100%;
+	text-align: center;
+	background-color: #dddddd;
+	padding:130px 15px;
+	margin-bottom: 20px;
+}
+.section1
+{
+	float:left;
+	width:100%;
+	text-align: center;
+	background-color:#dddddd;
+	padding: 50px 15px;
+	margin-top:10px;
+	margin-bottom: 20px;
+}
+.section1 .contant
+{
+	float: left;
+	width:100%;
+}
+.section1 .contant .card
+{
+	float: left;
+	width:25%;
+	padding: 10px 5px;
+}
+.section1 .contant .card .box
+{ 
+	background-color: gray;
+	font-size: 30px;
+	color:#fff;
+	padding: 60px 15px;
+}
+.section2
+{
+	float:left;
+	width:100%;
+	text-align: center;
+	background-color:#dddddd;
+	padding: 50px 15px;
+	margin-top:10px;
+	margin-bottom: 20px;	
+}
+.section2 .contant
+{
+	float:left;
+	width:100%;
+	margin-top: 60px;
+}
+.section2 .contant .left
+{
+	float: left;
+	width:50%;
+	padding: 0px 10px;
+}
+.section2 .contant .left .card
+{
+	padding: 200px 15px;
+	font-size: 30px;
+	color:#fff;
+	background-color:grey;
+}
+.section2 .contant .right
+{
+	float: left;
+	width:50%;
+}
+.section2 .contant .right .card
+{
+
+	padding:48px 15px;
+	font-size: 30px;
+	color:#fff;
+	background-color:grey;
+	margin-bottom: 20px;
+}
+footer
+{
+	float:left;
+	width:100%;
+	text-align: center;
+	background-color:#dddddd;
+	padding: 50px 15px;
+	margin-top:10px;
+}
