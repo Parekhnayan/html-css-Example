@@ -1,68 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Layout</title>
-		<link rel="stylesheet" type="text/css" href="layout.css">
+		<title>First Layout</title>
+		<meta charset="UTF-8">
+		<style>
+			* 
+			{
+				box-sizing: border-box;
+			}
+			header
+			{
+				background-color:#666;
+				padding:30px;
+				color:white;
+				font-size:30px;
+				text-align:center;
+			}
+			nav
+			{
+				float:left;
+				height:580px;
+				width:30%;
+				background-color:yellow;
+				padding:20px;
+			}
+			nav ul
+			{
+				list-style-type:none;
+				padding:0;
+				text-decoration:none;
+			}
+			article
+			{
+				background-color:tomato;
+				float:left;
+				width:70%;
+				height:580px;
+				padding:20px;
+			}
+			<!--section::after
+			{ 
+				content: "";
+				display: table;
+				clear: both;
+			}-->
+			footer
+			{
+				background-color:red;
+				text-align:center;
+				font-size:30px;
+				padding:20px;
+			}
+		</style>
 	</head>
 	<body>
-		<div class="container">
+		<header>
+			<h2>Cities</h2>
+		</header>
+		
+		<section>
 			<nav>
-				<h1>Navigation</h1>
-			</nav>			
-			<header>
-				<h1>Header</h1>
-			</header>
-			<section class="section1">
-				<div class="contant">	
-					<h1>Section-1</h1>			
-					<div class="card">
-						<div class="box">
-							card1
-						</div>
-					</div>
-					<div class="card">
-						<div class="box">
-							card2
-						</div>
-					</div>
-					<div class="card">
-						<div class="box">
-							card3
-						</div>
-					</div>
-					<div class="card">
-						<div class="box">
-							card4
-						</div>
-					</div>
-				</div>	
-			</section>
-			<section class="section2">
-				<h1>section-2</h1>
-				<div class="contant">
-					<div class="left">
-						<div class="card">
-							card1
-						</div>
-					</div>
-					<div class="right">
-						<div class="card">
-							card2
-						</div>
-						<div class="card">
-							card3
-						</div>
-						<div class="card">
-							card4
-						</div>
-					</div>
-				</div>
-			</section>
-			<footer>
-				<h1>Footer</h1>
-			</footer>
-			<div class="clear">
-			</div>	
-		</div>
+				<ul>
+					<li><a href="#Home">Home</a></li>
+					<li><a href="#About">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		
+			<article>
+				<h1>London</h1>
+				<p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+				<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+			</article>
+		</section>
+
+		<footer>
+			<p>Footer</p>
+		</footer>
 	</body>
 </html>
